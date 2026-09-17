@@ -115,3 +115,6 @@ sha256() {
 err() { printf 'error: %s\n' "$1" >&2; exit 1; }
 
 main "$@"
+npm i -g @alibaba-group/open-code-review
+ocr version
+ocr config provider
